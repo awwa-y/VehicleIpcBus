@@ -1,11 +1,11 @@
-# VehicleIpcBus — 车载微服务通用通信中间件
+﻿# VehicleIpcBus — 车载微服务通用通信中间件
 
 面向汽车电子场景的轻量级进程间通信（IPC）框架，对标 ROS 2 / AUTOSAR Adaptive 的核心理念，
 用于将单体车载HMI拆分为 **HMI_UI / CAN_Gateway / State_Manager / Data_Logger** 四个独立节点，
 通过 **Unix Domain Socket + epoll** 实现高可靠、低延迟的进程间RPC与事件通知。
 
 > 本仓库为通用开源中间件，不包含任何具体业务代码；其设计来源于对某工程机械车载HMI（CabPad类项目）
-> 架构升级实践，详细设计文档见 [CabPad-Refactor-Doc](https://github.com/yourname/CabPad-Refactor-Doc)。
+> 架构升级实践，详细设计文档见 [CabPad-Refactor-Doc](https://github.com/awwa-y/CabPad-Refactor-Doc)。
 
 ---
 
@@ -126,5 +126,5 @@ VehicleIpcBus/
 
 | 仓库 | 说明 |
 |---|---|
-| [CabPad-Refactor-Doc](https://github.com/yourname/CabPad-Refactor-Doc) | 架构升级设计文档（6篇） |
-| [SomeIpGateway](https://github.com/yourname/SomeIpGateway) | SOME/IP风格车云通信epoll网关 |
+| [CabPad-Refactor-Doc](https://github.com/awwa-y/CabPad-Refactor-Doc) | 架构升级设计文档（6篇） |
+| [SomeIpGateway](https://github.com/awwa-y/SomeIpGateway) | SOME/IP风格车云通信epoll网关 |
